@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@font-face{
+    font-family: "EB Garamond";
+    src: url(/assets/fonts/EBGaramond-VariableFont_wght.ttf)
+}
+
+/*text and font rulezz*/
+p{font-family: "EB Garamond", serif;}
+body{
+    color: black;
+    font: 150%;
+    font-family: "EB Garamond", serif;
+    background-image: url(/assets/images/bg.jpg);
+    background-size: fill;
+}
+#content{
+    line-height: 1.75em;
+}
+nav{
+    color:#333;
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+    
+section#main{margin-top:100px;}
+
+h1, h2, h3{
+    color:#333;
+    letter-spacing: 3pt;
+    font-family: "EB Garamond", serif;
+    margin-top: 10px;
+    margin-bottom: auto;
+    margin-bottom: auto;
+    
+}
+#bold{font-weight:1200;}
+
+#title{
+    text-transform: uppercase;
+    color:#333;
+    letter-spacing: 3pt;
+    font-weight:900;
+}
+#stock{
+    float: right;
+    margin-right:15px;
+    margin-left: 15px;
+    width: 28%;
+}
+a{
+    color: #333;
+    text-decoration: none;
+    padding: .5em;
+}
+
+#onPage li{
+    font-weight: bolder;
+    color:rgb(79, 23, 23);
+}
+
+#mainNav ul li{
+    list-style:none;
+    display: inline;
+    letter-spacing: 2pt;
+    color: #333;
+    font-weight: bold;
+}
+
+#nonNav ul li{
+    
+    display: block;
+    letter-spacing: 2pt;
+    color: #333;
+    font-weight: bold;
+}
+
+
+/*layout and dezign rulezz*/
+footer{
+    color: #333;
+    background-color: #0d0d0d;
+    padding: .5em;
+    text-align: center;
+    font-size: 8px;
+    letter-spacing: 2pt;
+    font-weight: bold;
+}
+#content{
+    margin-left:25%;
+    margin-right:25%;
+}
+header{
+    float:left;
+    text-align:left;
+    width: 50%;
+    margin-bottom: auto;
+    margin-top: auto;
+    
+}
+
+
+#subHead img{
+    width:100%;
+    padding: 0px;
+    margin: 0px;
+    
+}
